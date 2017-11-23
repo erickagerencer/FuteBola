@@ -1,0 +1,56 @@
+<ion-view title="Novo Racha" class="novoracha">
+
+  <ion-content ng-submit="salvar(racha)">
+    <form>
+      <div class="list">
+        <label class="item item-input">
+          <!-- <span class="input-label">Nome</span> -->
+          <input type="text" placeholder="Nome do Racha" ng-model="racha.nome">
+        </label>
+
+        <label class="item item-input">
+          <!-- <span class="input-label">Resumo</span> -->
+          <input type="text" placeholder="Descricao" ng-model="racha.descricao">
+        </label>
+
+        <!-- <label class="item item-input">
+             
+                <input type="text" placeholder="Administrador" ng-model="racha.administrador">
+                  </label> -->
+
+        <label class="item item-input">
+          <!-- <span class="input-label">Administrador</span> -->
+          <input type="text" placeholder="Telefone" ng-model="racha.telefone">
+        </label>
+
+
+        <ion-item class="item item-input item-select">
+          <span class="input-label">
+            Tipo de Campo
+            <select ng-model="racha.tipodecampo" class="campo">
+              <option>Futsal</option>
+              <option selected>Society</option>
+              <option>Mini Campo</option>
+              <option>Campo Oficial</option>
+            </select>
+        </ion-item>
+        <ion-item class="item item-input item-select">
+          <span class="input-label"> Local </span>
+          <select ng-model="racha.local">
+            <option>Pago</option>
+            <option selected>Gratuito</option>
+          </select>
+        </ion-item>
+        <ion-item class="item item-input">
+          <!-- <span class="inion-itemput-label"> Localização </span> -->
+          <input type="text" placeholder="Endereço" ng-model="racha.endereco">
+        </ion-item>
+        <div>
+          <button class="button button-block button-dark">
+            Salvar
+          </button>
+        </div>
+
+    </form>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,130 @@
+/* Empty. Add your own CSS if you like */
+
+
+
+ .login {
+
+    background-image: url("../img/LOGO-1.png");
+     background-size: 200px;
+    background-position: 65px 50px;
+    background-repeat: no-repeat;
+    background-color: #06d64b;
+  }
+  .login .list {
+      width : 75;
+      margin : 35px;
+      margin-top: 220px;
+      }
+.login .item {
+      background : none;
+      border : none;
+      }
+ .login .item-input       {
+      border-bottom: 1px solid #fff;
+      }
+.login .item-input i {
+      color : #fff;
+      font-size: 25px;
+      }
+.login .item-input input {
+      font-size: 15px;
+      margin-left: 10px;
+      color : #ffffff;
+      }
+.login .item-button      {
+        color:   #054d21 ;
+      padding : 0;
+
+      }
+      .login  ::-webkit-input-placeholder {
+            color: #ffffff;
+         }
+        .login   :-moz-placeholder {
+            color: #ffffff;
+         }
+         .login ::-moz-placeholder {
+            color: #ffffff;
+         }
+      .login       :-ms-input-placeholder {
+          color: #ffffff;
+         }
+
+
+      .cadastro {
+
+                background-image: url("../img/futebola-icone2.png");
+                 background-size: 200px;
+                background-position: 65px 50px;
+                background-repeat: no-repeat;
+                background-color: #06d64b;
+      }
+                .cadastro .list {
+                  width : 75;
+                  margin : 35px;
+                  margin-top: 220px;
+                  }
+            .cadastro .item {
+                  background : none;
+                  border : none;
+                  }
+             .cadastro .item-input       {
+                  border-bottom: 1px solid #fff;
+                  }
+            .cadastro .item-input i {
+                  color : #fff;
+                  font-size: 25px;
+                  }
+            .cadastro .item-input input {
+                  font-size: 15px;
+                  margin-left: 10px;
+                  color : #ffffff;
+                  }
+            .cadastro .item-button      {
+                    color:   #054d21 ;
+                  padding : 0;
+
+                  }
+
+               .cadastro  ::-webkit-input-placeholder {
+                        color: #ffffff;
+                     }
+                    .cadastro   :-moz-placeholder {
+                        color: #ffffff;
+                     }
+                     .cadastro ::-moz-placeholder {
+                        color: #ffffff;
+                     }
+                  .cadastro       :-ms-input-placeholder {
+                      color: #ffffff;
+                     }
+
+                     .novoracha .list {
+                        width : 75;
+                        margin : 35px;
+                        margin-top: 40px;
+                        }
+                   .novoracha .item {
+                        background : none;
+                        border : none;
+                        }
+                  .novoracha .item-input       {
+                        border-bottom: 1px solid rgb(9, 153, 9);
+                        }
+
+
+                  .novoracha .item-input input {
+                        font-size: 12px;
+                        margin-left: 0px;
+                        color : rgb(9, 153, 9);
+                        }
+
+                  .novoracha .item-select span{
+                       font-size:12px;
+                       text-indent:0rem;
+                  }
+
+                  .novoracha .item-select {
+                        margin:-5px;
+                        margin-top: 10px;
+
+                  }

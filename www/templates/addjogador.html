@@ -1,0 +1,72 @@
+<ion-view title="Adicionar Jogador">
+
+        <ion-floating-button click="myEvent()" has-footer="false" button-color="#2AC9AA" icon="ion-plus" icon-color="#fff">
+            </ion-floating-button>
+
+    <ion-content>
+
+        <div class="list">
+            <label class="item item-input">
+                <input type="text" placeholder="Search" ng-model="search.nome">
+            </label>
+
+
+            <div class="item item-avatar item-button-right" ng-repeat="usuario in usuarios">
+                <img src="img/avatar.jpg">
+
+                <p>{{usuario.displayName}}</p>
+
+                <button class="button button-stable"  ng-click="salvar(usuario,usuario.$id)">
+                    <i class="icon ion-plus-round"></i>
+                </button>
+
+
+            </div>
+<!--
+            <button class="button button-block button-balanced">
+                Salvar
+            </button> -->
+    </ion-content>
+</ion-view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <label class="item item-input">
+        <span class="input-label">Administrador</span>
+        <input type="text" placeholder="Telefone" ng-model="jogador.telefone">
+    </label>
+
+
+    <label class="item item-input">
+        <span class="input-label">Administrador</span>
+        <input type="text" placeholder="Email" ng-model="jogador.Email">
+    </label> -->
+
+
+
+<!-- <label class="item item-input item-select">
+                    <span class="input-label">
+                        Posição
+                        <select ng-model="jogador.posicao">
+                            <option>Goleiro</option>
+                            <option selected>Zagueiro</option>
+                            <option>Meio Campo</option>
+                            <option>Atacante</option>
+                        </select>
+                </label> -->

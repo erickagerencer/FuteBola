@@ -1,0 +1,82 @@
+<ion-view title="Cadastro" class="cadastro">
+
+
+
+  <form ng-submit="registrar(user)" name="form">
+
+    <ion-list class="list-inset">
+      <ion-item class="item item-input">
+         <i class = "ion-ios-person-outline "></i>
+        <input type="text" placeholder="Nome" ng-model="user.nome">
+      </ion-item>
+
+      <!-- <ion-item class="item item-input">
+        <i class="icon ion-ios-telephone-outline placeholder-icon"></i>
+        <input type="text" placeholder="Telefone ( ) #####-####" ng-model="user.telefone" required>
+      </ion-item> -->
+
+      <ion-item class="item item-input">
+        <i class="icon ion-ios-at-outline placeholder-icon"></i>
+        <input type="email" placeholder="Email" ng-model="user.email" required>
+      </ion-item>
+
+      <ion-item class="item item-input">
+        <i class="icon ion-ios-locked-outline placeholder-icon"></i>
+        <input type="password" placeholder="Senha" ng-minlength="6" ng-model="user.password" required>
+      </ion-item>
+
+
+      <ion-item class="item-button">
+        <button class="button button-block button-dark" ng-disabled="form.$invalid">
+          Registrar
+        </button>
+      </ion-item>
+
+
+
+    </ion-list>
+  </form>
+
+</ion-view>
+
+  <!-- <ion-item class="item-button">
+    <button class="button button-block button-dark" ng-click="cadastrar()">
+     Cadastrar
+      </button>
+    </ion-item> -->
+  <!-- <ion-content ng-submit="salvar(usuario)">
+
+<div class="list">
+  <label class="item item-input item-floating-label">
+    <span class="input-label">Nome </span>
+    <input type="text" placeholder="Nome" ng-model="usuario.nome">
+  </label>
+  <label class="item item-input item-floating-label">
+    <span class="input-label">Telefone</span>
+    <input type="text" placeholder="Telefone" ng-model="usuario.telefone">
+  </label>
+  <label class="item item-input item-floating-label" ng-model="usuario.email">
+    <span class="input-label">Email</span>
+    <input type="text" placeholder="Email">
+  </label>
+  <label class="item item-input item-select">
+    <span  class="input-label">
+      Posição
+    <select ng-model="usuario.posicao">
+      <option>Goleiro</option>
+      <option selected>Defensor</option>
+      <option>Meio-Campo</option>
+      <option>Atacante</option>
+    </select>
+  </label>
+<label class="item item-input item-floating-label">
+  <span class="input-label">Senha</span>
+  <input type="text" placeholder="Senha" ng-model="usuario.senha">
+</label>
+</div>
+
+<button class="button button-block button-dark" ng-click="salvar()">
+Cadstrar
+  </button>
+</form>
+</ion-content> -->

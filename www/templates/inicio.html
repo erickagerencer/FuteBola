@@ -1,0 +1,47 @@
+<ion-view title="Meus Jogos" class="inicio">
+  <ion-nav-buttons side="right">
+      <button class="button button-icon ion-compose" ng-click="add()"> </button>
+    </ion-nav-buttons>
+
+    <ion-content>
+<!-- Label de procura no topo da tela -->
+      <ion-list>
+          <label class="item item-search">
+              <input type="text" placeholder="Search" ng-model="search.nome">
+          </label>
+
+          <!-- Contatos(app.js) atribuídos ao contato  24/08/2017 -->
+    <ion-item class="item item-avatar" ng-click="editar(racha.$id)" ng-repeat="racha in Racha | filter : search | orderBy : 'nome'">
+          <img src="img/futebola-icone4.png" alt="">
+          <h2>{{racha.nome}} </h2>
+            <p>{{racha.administrador}}</p>
+            <p>{{racha.tipodecampo}}</p>
+
+            <ion-option-button ng-click="apagar(racha.$id)">
+              Excluir
+            </ion-option-button>
+        </ion-item>
+
+</ion-list>
+</ion-content>
+</ion-view>
+
+
+
+
+
+
+
+
+ <!-- <div class="list">
+
+                    <label class="item item-input">
+                      <input type="text" placeholder="Search" ng-model="search.nome">
+                    </label>
+
+                    <div class="item item-avatar" ng-click="editar()" ng-repeat="contato in contatos | filter : search | orderBy : 'nome'">
+
+                      <img src="img/avatar.jpg"/>
+                      <h2>{{racha.nome}}</h2>
+                      <p>{{racha.administrador}}</p>
+                    </div> -->
