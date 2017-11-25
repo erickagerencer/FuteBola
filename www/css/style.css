@@ -52,16 +52,16 @@
 
       .cadastro {
 
-                background-image: url("../img/futebola-icone2.png");
+                /*background-image: url("../img/futebola-icone2.png");*/
                  background-size: 200px;
                 background-position: 65px 50px;
                 background-repeat: no-repeat;
                 background-color: #06d64b;
       }
                 .cadastro .list {
-                  width : 75;
+
                   margin : 35px;
-                  margin-top: 220px;
+                  margin-top: 150px;
                   }
             .cadastro .item {
                   background : none;

@@ -158,7 +158,6 @@ app.controller("CadastroCtrl", function ($scope, $state, $firebaseObject, $fireb
           usuario.displayName = firebaseUser.displayName;
           usuario.email = firebaseUser.email;
           usuario.dataCadastro = new Date().getTime();
-          usuario.telefone = firebaseUser.telfone;
 
 
 
